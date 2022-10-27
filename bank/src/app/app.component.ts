@@ -11,13 +11,13 @@ export class AppComponent {
   // valor: number;
   transferencia: any;
 
-  transferir($event){
+  transferir($event) {
     console.log($event)
     // this.destino = $event.destino;
     // this.valor = $event.valor;
     this.transferencia = $event;
   }
-  exibirModalErro($event){
-   console.log($event)
-}
+  exibirModalErro($event) {
+    console.log($event)
+  }
 }
