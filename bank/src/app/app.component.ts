@@ -13,9 +13,9 @@ export class AppComponent {
 
   }
 
-  transferir($event){ // recebe o evento e propaga para o service
-    this.service.adicionar($event);
-  }
+  // transferir($event){ // recebe o evento e propaga para o service
+  //   this.service.adicionar($event);
+  // }
 
   // destino: number;
   // valor: number;
