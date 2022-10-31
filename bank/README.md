@@ -4,7 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files. 
+
+##Passos para rodar a API REST:
+Run `cd bank`
+Run `cd dados`
+Run `json-server --watch db.json`
+
+##Passos para rodar o Front:
+Run `cd bank`
+Run `npm i`
+Run `ng s`
 
 ## Code scaffolding
 
